@@ -1,0 +1,110 @@
+.bg-custom {
+    background-color: #D9D0C1;
+}
+
+.bg-green{
+    background-color: #38591D;
+}
+.navbar {
+    background-color: #38591D;
+    height: 100px;
+}
+.navbar-toggler {
+    border: none;
+    font-size: 1.25rem;
+
+}
+
+.navbar-toggler:focus, btn-close:focus {
+    box-shadow: none;
+    outline:none;
+}
+
+.nav-link {
+    color:#D9D0C1;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-link:hover, .nav-link.active {
+    color:#D9753B;
+}
+
+.nav-link::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    height: 2px;
+    background-color: #D9753B;
+    visibility: hidden;
+    transition: 0.3s ease-in-out;
+
+}
+
+.nav-link:hover::before, .nav-link.active::before {
+    width: 100%;
+    visibility: visible;
+}
+
+.carousel-item {
+        height: calc(45vh + 10cm); 
+}
+
+
+.carousel-item img {
+    height: 100%; 
+    width: auto; 
+    margin: auto; 
+    display: block;
+}
+
+.card-header{
+    background-color: #D9D0C1;
+}
+
+.card-title{
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 700;
+    font-style: normal; 
+    color:#38591D;
+}
+
+.card-body{
+      background-color: #D9D0C1;
+}
+
+.card-body-green{
+      background-color: #38591D; 
+}
+
+p{
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 400;
+    font-style: normal; 
+    color:#D9753B;
+}
+
+h2{
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 500;
+    font-style: italic; 
+    color:#38591D; 
+}
+
+h5{
+
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 700;
+    font-style: normal;
+    color:#38591D; 
+}
+
+label{
+    font-family: "bodoni-egyptian-pro", serif;
+    font-weight: 700;
+    font-style: normal; 
+    color:#38591D; 
+}
